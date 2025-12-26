@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(226, 201, 239, 0.419);
+    font-family: "Monsterrat", sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 1, 25px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 24px;
+    box-shadow: 5px 7px 25px black;
+}
+
+.image {
+    border-radius: 20%;
+    margin: 10px 5px 2em;
+    float: right;
+
+}
+
+h2 {
+    font-style: italic;
+    color: rgb(69, 2, 81)
+}
+
+.about {
+    margin-bottom: 20px;
+}
+
+.about__content {
+    display: flex;
+    gap: 30px;
+}
+
+.main-title {
+    color: grey;
+    background-color: antiquewhite;
+    border: 2px solid grey;
+    margin: 10px, 0px;
+}
+
+.social-link:hover {
+    color: blue
+}
+
+h1 {
+    color: rgb(21, 2, 39);
+    margin: 20px auto 10 px;
+}
+
+.conteiner {
+    color: azure;
+    padding: 15px 25 px 10 px 25px;
+    margin: auto;
+
+}
+
+p {
+    font-style: italic;
+    font-size: 20px;
+    margin: 8px;
+
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(215, 186, 231);
+}
+
+
+#list {
+    background-image: url("https://i.pinimg.com/1200x/d7/2d/91/d72d91fea4a54e7a10d2c888757377ad.jpg");
+    background-color: #abb8e6;
+}
+
+#inf {
+    border-style: dashed;
+}
+
+@media (max-width: 650) {
+    .about_content {
+        display: block;
+        text-align: center;
+    }
+}
